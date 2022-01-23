@@ -24,3 +24,19 @@ font-family: 'Roboto', sans-serif; */
     font-size: 48px;
 }
 /* Header Section End */
+
+/* ----------------------------section 2 starting---------------------------- */
+
+.sec2{
+    font-family: 'Poppins', sans-serif;
+    min-height: 600px;
+}
+.moment{
+    font-size: 38px;
+    font-weight: bold;
+
+}
+
+
+
+/* -------------------------section 2 ending------------------------- */
