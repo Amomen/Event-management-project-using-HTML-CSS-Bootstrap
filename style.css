@@ -29,7 +29,7 @@ font-family: 'Roboto', sans-serif; */
 
 .sec2{
     font-family: 'Poppins', sans-serif;
-    min-height: 600px;
+    min-height: 450px;
 }
 .moment{
     font-size: 38px;
@@ -40,3 +40,40 @@ font-family: 'Roboto', sans-serif; */
 
 
 /* -------------------------section 2 ending------------------------- */
+
+/* -------------------------section 3 start------------------------- */
+
+.package{
+    font-family: 'Poppins', sans-serif;
+}
+.price{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+}
+.price{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+}
+.fair{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size:15px;
+    color: #848199;
+}
+/* .icon{
+    height: 20px;
+    width: 20px;
+    
+} */
+.svg
+{
+    width: 40px;
+    height: 40px;
+    color: #5243C2;
+    background-color: #EDECF9;
+    border-radius: 50%;
+}
+
+/* -------------------------section 3 ending------------------------- */
