@@ -1,0 +1,17 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+/* Header section  start*/
+.event{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+}
+.my-nav{
+    font-family: 'Poppins', sans-serif;
+    font-weight: medium;
+    font-size: 16px;
+}
+/* Header Section End */
