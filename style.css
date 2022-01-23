@@ -14,4 +14,13 @@ font-family: 'Roboto', sans-serif; */
     font-weight: medium;
     font-size: 16px;
 }
+.sec1 img{
+    max-width: 1440px;
+    max-height: 540px;
+}
+.venue{
+    font-family: 'Poppins', sans-serif;
+    font-weight: SemiBold;
+    font-size: 48px;
+}
 /* Header Section End */
