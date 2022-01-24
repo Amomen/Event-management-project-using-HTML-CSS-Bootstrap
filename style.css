@@ -4,6 +4,10 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif; */
 
 /* Header section  start*/
+a {
+    text-decoration: none;
+}
+
 .event {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
