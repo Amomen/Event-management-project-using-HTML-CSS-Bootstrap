@@ -47,6 +47,17 @@ font-family: 'Roboto', sans-serif; */
     width: 16px;
 }
 
+.svg3 {
+    height: 20px;
+    width: 20px;
+
+}
+
+.my-toast {
+    font-family: 'Poppins', sans-serif;
+    font-weight: medium;
+    font-size: 14px;
+}
 
 
 /* -------------------------section 2 ending------------------------- */
@@ -67,6 +78,10 @@ font-family: 'Roboto', sans-serif; */
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 28px;
+}
+
+.wedding-plus {
+    border-radius: 50%;
 }
 
 .fair {
@@ -110,4 +125,10 @@ font-family: 'Roboto', sans-serif; */
     font-family: 'Poppins', sans-serif;
     font-weight: medium;
     font-size: 20px;
+}
+
+/* --------------------------------Footer start-------------------------------- */
+.footer {
+    min-height: 280px;
+    background-color: #0B0D17;
 }
