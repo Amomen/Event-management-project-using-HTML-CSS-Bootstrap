@@ -1,359 +1,569 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <!-- Bootstrap start -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- Bootstrap End -->
+  <!-- Bootstrap start -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Bootstrap End -->
 
-    <!-- -------------------------fonts start------------------------- -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@700&family=Poppins:wght@100;400;500;600;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <!-- -------------------------fonts start------------------------- -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@700&family=Poppins:wght@100;400;500;600;700&family=Roboto:wght@700&display=swap"
+    rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@700&family=Poppins:wght@100;400;600;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
- <!-- --------------------------Fonts End-------------------------- -->
- <link rel="stylesheet" href="style.css">    
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Convention-center</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@700&family=Poppins:wght@100;400;600;700&family=Roboto:wght@700&display=swap"
+    rel="stylesheet">
+  <!-- --------------------------Fonts End-------------------------- -->
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Convention-center</title>
 </head>
+
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light ">
-            <div class="container-fluid">
-              <a class="navbar-brand event" href="#">Momen Event management</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="my-nav navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Subscribe</a>
-                  </li>
-                  
-                </ul>
-                
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <div class="container-fluid">
+        <a class="navbar-brand event" href="#">Momen Event management</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="my-nav navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Subscribe</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="sec1">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/banner.png" class="d-block w-100 img-fluid" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="venue">Lets Learn HTML <br>
+                next event</h2>
+              <p>is the markup language that we use to structure and give meaning to our web content, for example
+                defining paragraphs, headings, and data tables, or embedding images and videos in the page.</p>
+              <div class="book-now">
+                <button class="btn btn-light text-primary">Book Now</button>
               </div>
             </div>
-          </nav>
-    </header>
-    <main>
-      <section class="sec1">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="images/banner.png" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h2 class="venue">Lets Learn HTML <br>
-                  next event</h2>
-                <p>is the markup language that we use to structure and give meaning to our web content, for example defining paragraphs, headings, and data tables, or embedding images and videos in the page.</p>
-                <div class="book-now">
-                  <button class="btn btn-light text-primary">Book Now</button>
+          <div class="carousel-item">
+            <img src="images/i1.jpg" class="d-block w-100 img-fluid" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="venue">Javascript I a Powerful Programing Language <br>
+                next event</h2>
+              <p>javaScript is a scripting or programming language that allows you to implement complex features on web
+                pages — every time a web page does more than just sit there and display static information for you to
+                look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video
+                jukeboxes, etc</p>
+              <div class="book-now">
+                <button class="btn btn-light text-primary">Book Now</button>
+              </div>
+
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/i2.png" class="d-block w-100 img-fluid" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="venue">REACT is a Javascript Library<br>
+                next event</h2>
+              <p>APIs are ready-made sets of code building blocks that allow a developer to implement programs that
+                would otherwise be hard or impossible to implement. They do the same thing for programming that
+                ready-made furniture kits do for home building — it is much easier to take ready-cut panels and screw
+                them together to make a bookshelf than it is to work out the design yourself, go and find the correct
+                wood, cut all the panels to the right size and shape, find the correct-sized screws, and then put them
+                together to make a bookshelf.</p>
+              <div class="book-now">
+                <button class="btn btn-light text-primary">Book Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="sec2 mt-5">
+      <div class="container">
+        <div class="row d-flex justify-content-center align-items-center ">
+          <div class="col-md-6"><img class="img-fluid" src="images/wedding.png" alt=""></div>
+          <div class="col-md-6  ">
+            <h2 class="moment ">Every moment is Precious </h2>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis
+              enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <div><button class="btn btn-primary text-white">Explore our Album <svg xmlns="http://www.w3.org/2000/svg"
+                  class="explore-svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg></button></div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <!--------------------------------------- Pricing Section Started  --------------------------------------->
+
+    <section class="section3 container-fluid  ">
+      <h2 class="text-center package">Our Package</h2>
+      <div class=" container container-fluid ">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card shadow-sm  mb-3 mt-5 border-0" style="max-width: 18rem;">
+              <div class="card-header bg-transparent border-0 px-2 py-0 price">$300</div>
+              <div class="card-body text-success">
+                <h5 class="card-title Business text-center text-dark">Business Fair</h5>
+                <p class="card-text  text-start fair">For most businesses event
+                  like book fair, craft fair.</p>
+              </div>
+              <div class="card-body text-success p-2">
+                <div class="row d-flex justify-content-center align-items-center">
+                  <div class="col-md-2 col-sm-2 svg text-center d-flex justify-content-center align-items-center "><svg
+                      xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg></div>
+                  <div class="col-md-10 col-sm-10">
+                    <p class="card-text  text-start fair">Limited Space Access</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="card-body text-success p-2">
+                <div class="row d-flex justify-content-center align-items-center">
+                  <div class="col-md-2 col-sm-2 svg text-center d-flex justify-content-center align-items-center "><svg
+                      xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg></div>
+                  <div class="col-md-10 col-sm-10">
+                    <p class="card-text  text-start fair">Secuirty facility</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="card-body text-success p-2">
+                <div class="row d-flex justify-content-center align-items-center">
+                  <div class="col-md-2 col-sm-2 svg text-center d-flex justify-content-center align-items-center "><svg
+                      xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg></div>
+                  <div class="col-md-10 col-sm-10">
+                    <p class="card-text  text-start fair">event support</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="card-body text-success p-2">
+                <div class="row d-flex justify-content-center align-items-center">
+                  <div class="col-md-2 col-sm-2 svg text-center d-flex justify-content-center align-items-center "><svg
+                      xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg></div>
+                  <div class="col-md-10 col-sm-10">
+                    <p class="card-text  text-start fair">Decoration design</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="card-body text-success p-2">
+                <div class="row d-flex justify-content-center p-0 align-items-center">
+                  <div class="col-md-2 col-sm-2 svg text-center d-flex justify-content-center align-items-center "><svg
+                      xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg></div>
+                  <div class="col-md-10 col-sm-10">
+                    <p class="card-text  text-start fair">Per day bill</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="card-footer bg-transparent border-0 btn-lg d-flex justify-content-center align-items-center ">
+                <button class="btn text-primary rounded-pill px-5 plan-btn">Choose Plan</button></div>
+            </div>
+
+          </div>
+          <div class="col-md-3">
+            <div class="card shadow-sm  mb-3 mt-5 border-0" style="max-width: 18rem;">
+              <div class="card-header bg-transparent border-0 px-2 py-0 price">$500</div>
+              <div class="card-body text-success">
+                <h5 class="card-title Business text-center text-dark">Wedding Basic</h5>
+                <p class="card-text  text-start fair">For most businesses event
+                  like book fair, craft fair.</p>
+              </div>
+              <div class="card-body text-success p-2">
+                <div class="row d-flex justify-content-center align-items-center">
+                  <div class="col-md-2 col-sm-2 svg text-center d-flex justify-content-center align-items-center "><svg
+                      xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg></div>
+                  <div class="col-md-10 col-sm-10">
+                    <p class="card-text  text-start fair">Limited Space Access</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="card-body text-success p-2">
+                <div class="row d-flex justify-content-center align-items-center">
+                  <div class="col-md-2 col-sm-2 svg text-center d-flex justify-content-center align-items-center "><svg
+                      xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg></div>
+                  <div class="col-md-10 col-sm-10">
+                    <p class="card-text  text-start fair">Secuirty facility</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="card-body text-success p-2">
+                <div class="row d-flex justify-content-center align-items-center">
+                  <div class="col-md-2 col-sm-2 svg text-center d-flex justify-content-center align-items-center "><svg
+                      xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg></div>
+                  <div class="col-md-10 col-sm-10">
+                    <p class="card-text  text-start fair">event support</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="card-body text-success p-2">
+                <div class="row d-flex justify-content-center align-items-center">
+                  <div class="col-md-2 col-sm-2 svg text-center d-flex justify-content-center align-items-center "><svg
+                      xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg></div>
+                  <div class="col-md-10 col-sm-10">
+                    <p class="card-text  text-start fair">Decoration design</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="card-body text-success p-2">
+                <div class="row d-flex justify-content-center p-0 align-items-center">
+                  <div class="col-md-2 col-sm-2 svg text-center d-flex justify-content-center align-items-center "><svg
+                      xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg></div>
+                  <div class="col-md-10 col-sm-10">
+                    <p class="card-text  text-start fair">Per day bill</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="card-footer bg-transparent border-0 btn-lg d-flex justify-content-center align-items-center ">
+                <button class="btn text-primary rounded-pill px-5 plan-btn">Choose Plan</button></div>
+            </div>
+
+          </div>
+          <div class="col-md-3 p-0 ">
+            <div class="card p-0 bg-primary m-0 text-white shadow-sm  position-relative shadow-lg  border-0 rounded-3"
+              style="max-width: 18rem;">
+              <div class="card-header bg-transparent border-0 price px-2 py-0">$800</div>
+              <div class="card-body text-success">
+                <h5 class="card-title Business text-center text-white">Wedding plus</h5>
+                <p class="card-text  text-start s-fair">For most businesses event
+                  like book fair, craft fair.</p>
+              </div>
+              <div class="card-body text-success p-2">
+                <div class="row d-flex justify-content-center align-items-center">
+                  <div class="col-md-2 col-sm-2 svg text-center d-flex justify-content-center align-items-center "><svg
+                      xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg></div>
+                  <div class="col-md-10 col-sm-10">
+                    <p class="card-text  text-start s-fair">Limited Space Access</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="card-body text-success p-2">
+                <div class="row d-flex justify-content-center align-items-center">
+                  <div class="col-md-2 col-sm-2 svg text-center d-flex justify-content-center align-items-center "><svg
+                      xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg></div>
+                  <div class="col-md-10 col-sm-10">
+                    <p class="card-text  text-start s-fair">Secuirty facility</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="card-body text-success p-2">
+                <div class="row d-flex justify-content-center align-items-center">
+                  <div class="col-md-2 col-sm-2 svg text-center d-flex justify-content-center align-items-center "><svg
+                      xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg></div>
+                  <div class="col-md-10 col-sm-10">
+                    <p class="card-text  text-start s-fair">event support</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="card-body text-success p-2">
+                <div class="row d-flex justify-content-center align-items-center">
+                  <div class="col-md-2 col-sm-2 svg text-center d-flex justify-content-center align-items-center "><svg
+                      xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg></div>
+                  <div class="col-md-10 col-sm-10">
+                    <p class="card-text  text-start s-fair">Decoration design</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="card-body text-success p-2">
+                <div class="row d-flex justify-content-center p-0 align-items-center">
+                  <div class="col-md-2 col-sm-2 svg text-center d-flex justify-content-center align-items-center "><svg
+                      xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg></div>
+                  <div class="col-md-10 col-sm-10">
+                    <p class="card-text  text-start s-fair">Per day bill</p>
+                  </div>
+                </div>
+
+              </div class="">
+              <div class="d-flex justify-content-center align-items-center card-footer bg-transparent border-0 btn-lg ">
+                <button class="btn text-primary rounded-pill px-5 plan-btn">Choose Plan</button></div>
+            </div>
+
+          </div>
+
+          <div class="col-md-3">
+            <div class="card shadow-sm  mb-3 mt-5 border-0" style="max-width: 18rem;">
+              <div class="card-header bg-transparent border-0 px-2 py-0 price">$1200</div>
+              <div class="card-body text-success">
+                <h5 class="card-title Business text-center text-dark">Corporate Event</h5>
+                <p class="card-text  text-start fair">For most businesses event
+                  like book fair, craft fair.</p>
+              </div>
+              <div class="card-body text-success p-2">
+                <div class="row d-flex justify-content-center align-items-center">
+                  <div class="col-md-2 col-sm-2 svg text-center d-flex justify-content-center align-items-center "><svg
+                      xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg></div>
+                  <div class="col-md-10 col-sm-10">
+                    <p class="card-text  text-start fair">Limited Space Access</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="card-body text-success p-2">
+                <div class="row d-flex justify-content-center align-items-center">
+                  <div class="col-md-2 col-sm-2 svg text-center d-flex justify-content-center align-items-center "><svg
+                      xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg></div>
+                  <div class="col-md-10 col-sm-10">
+                    <p class="card-text  text-start fair">Secuirty facility</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="card-body text-success p-2">
+                <div class="row d-flex justify-content-center align-items-center">
+                  <div class="col-md-2 col-sm-2 svg text-center d-flex justify-content-center align-items-center "><svg
+                      xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg></div>
+                  <div class="col-md-10 col-sm-10">
+                    <p class="card-text  text-start fair">event support</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="card-body text-success p-2">
+                <div class="row d-flex justify-content-center align-items-center">
+                  <div class="col-md-2 col-sm-2 svg text-center d-flex justify-content-center align-items-center "><svg
+                      xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg></div>
+                  <div class="col-md-10 col-sm-10">
+                    <p class="card-text  text-start fair">Decoration design</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="card-body text-success p-2">
+                <div class="row d-flex justify-content-center p-0 align-items-center">
+                  <div class="col-md-2 col-sm-2 svg text-center d-flex justify-content-center align-items-center "><svg
+                      xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg></div>
+                  <div class="col-md-10 col-sm-10">
+                    <p class="card-text  text-start fair">Per day bill</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="card-footer bg-transparent border-0 btn-lg d-flex justify-content-center align-items-center ">
+                <button class="btn text-primary rounded-pill px-5 plan-btn">Choose Plan</button></div>
+            </div>
+
+          </div>
+
+
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------------pricing Ended ------------------------>
+
+    <section class="last-section mt-2">
+      <div class="container">
+        <h3 class="text-center">Frequently Asked Question</h3>
+        <div class="row mt-5 p-5">
+
+          <div class="col-md-6">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button a-btn" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    What is JavaScript doing on your page?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Here we'll actually start looking at some code, and while doing so, explore what actually happens
+                      when you run some JavaScript in your page.
+
+                      Let's briefly recap the story of what happens when you load a web page in a browser (first talked
+                      about in our How CSS works article). When you load a web page in your browser, you are running
+                      your code (the HTML, CSS, and JavaScript) inside an execution environment (the browser tab). This
+                      is like a factory that takes in raw materials (the code) and outputs a product (the web page).</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button a-btn collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    JavaScript running order
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>When the browser encounters a block of JavaScript, it generally runs it in order, from top to
+                      bottom. This means that you need to be careful what order you put things in. For example, let's
+                      return to the block of JavaScript we saw in our first example:</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed a-btn" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Interpreted versus compiled code
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>You might hear the terms interpreted and compiled in the context of programming. In interpreted
+                      languages, the code is run from top to bottom and the result of running the code is immediately
+                      returned. You don't have to transform the code into a different form before the browser runs it.
+                      The code is received in its programmer-friendly text form and processed directly from that.
+
+                      Compiled languages on the other hand are transformed (compiled) into another form before they are
+                      run by the computer. For example, C/C++ are compiled into machine code that is then run by the
+                      computer. The program is executed from a binary format, which was generated from the original
+                      program source code.</p>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
-              <img src="images/i1.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h2 class="venue">Javascript I a Powerful Programing Language <br>
-                  next event</h2>
-                <p>javaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc</p>
-                <div class="book-now">
-                  <button class="btn btn-light text-primary">Book Now</button>
-                </div>
-                
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="images/i2.png" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h2 class="venue">REACT is a Javascript Library<br>
-                  next event</h2>
-                <p>APIs are ready-made sets of code building blocks that allow a developer to implement programs that would otherwise be hard or impossible to implement. They do the same thing for programming that ready-made furniture kits do for home building — it is much easier to take ready-cut panels and screw them together to make a bookshelf than it is to work out the design yourself, go and find the correct wood, cut all the panels to the right size and shape, find the correct-sized screws, and then put them together to make a bookshelf.</p>
-                <div class="book-now">
-                  <button class="btn btn-light text-primary">Book Now</button>
-                </div>
-              </div>
-            </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+          <div class="col-md-6"><img src="images/i2.png" alt=""></div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="sec2 mt-5">
-        <div class="container">
-          <div class="row d-flex justify-content-center align-items-center ">
-            <div class="col-md-6"><img src="images/wedding.png" alt=""></div>
-          <div class="col-md-6  "><h2 class="moment ">Every moment is Precious </h2>
-            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p></div>
-          
-          </div>
-        </div>
-      </section>
 
-      <section class="section3">
-        <h2 class="text-center package">Our Package</h2>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-3"> <div class="card shadow-lg  mb-3 mt-5 border-0" style="max-width: 18rem;">
-    <div class="card-header bg-transparent border-0 price">$300</div>
-    <div class="card-body text-success">
-      <h5 class="card-title Business text-center text-dark">Business Fair</h5>
-      <p class="card-text  text-start fair">For most businesses event 
-        like book fair, craft fair.</p>
-    </div>    
-    <div class="card-body text-success">    
-      <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-md-2 svg text-center d-flex justify-content-center align-items-center "><svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-        </svg></div>
-        <div class="col-md-10"><p class="card-text  text-start fair">Limited Space Access</p></div>
-      </div>          
-      
-    </div>        
-    <div class="card-body text-success">    
-      <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-md-2 svg text-center d-flex justify-content-center align-items-center "><svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-        </svg></div>
-        <div class="col-md-10"><p class="card-text  text-start fair">Secuirty facility</p></div>
-      </div>          
-      
-    </div>   
-    <div class="card-body text-success">    
-      <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-md-2 svg text-center d-flex justify-content-center align-items-center "><svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-        </svg></div>
-        <div class="col-md-10"><p class="card-text  text-start fair">event support</p></div>
-      </div>          
-      
-    </div>   
-    <div class="card-body text-success">    
-      <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-md-2 svg text-center d-flex justify-content-center align-items-center "><svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-        </svg></div>
-        <div class="col-md-10"><p class="card-text  text-start fair">Decoration design</p></div>
-      </div>          
-      
-    </div>   
-    <div class="card-body text-success">    
-      <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-md-2 svg text-center d-flex justify-content-center align-items-center "><svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-        </svg></div>
-        <div class="col-md-10"><p class="card-text  text-start fair">Per day bill</p></div>
-      </div>          
-      
-    </div>       
-    <div class="card-footer bg-transparent border-0 "><button class="btn btn-primary rounded-pill">Choose Plan</button></div>
-  </div></div>
-            <div class="col-md-3"> <div class="card shadow-lg  mb-3 mt-5 border-0" style="max-width: 18rem;">
-    <div class="card-header bg-transparent border-0 price">$300</div>
-    <div class="card-body text-success">
-      <h5 class="card-title Business text-center text-dark">Business Fair</h5>
-      <p class="card-text  text-start fair">For most businesses event 
-        like book fair, craft fair.</p>
-    </div>    
-    <div class="card-body text-success">    
-      <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-md-2 svg text-center d-flex justify-content-center align-items-center "><svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-        </svg></div>
-        <div class="col-md-10"><p class="card-text  text-start fair">Limited Space Access</p></div>
-      </div>          
-      
-    </div>        
-    <div class="card-body text-success">    
-      <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-md-2 svg text-center d-flex justify-content-center align-items-center "><svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-        </svg></div>
-        <div class="col-md-10"><p class="card-text  text-start fair">Secuirty facility</p></div>
-      </div>          
-      
-    </div>   
-    <div class="card-body text-success">    
-      <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-md-2 svg text-center d-flex justify-content-center align-items-center "><svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-        </svg></div>
-        <div class="col-md-10"><p class="card-text  text-start fair">event support</p></div>
-      </div>          
-      
-    </div>   
-    <div class="card-body text-success">    
-      <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-md-2 svg text-center d-flex justify-content-center align-items-center "><svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-        </svg></div>
-        <div class="col-md-10"><p class="card-text  text-start fair">Decoration design</p></div>
-      </div>          
-      
-    </div>   
-    <div class="card-body text-success">    
-      <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-md-2 svg text-center d-flex justify-content-center align-items-center "><svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-        </svg></div>
-        <div class="col-md-10"><p class="card-text  text-start fair">Per day bill</p></div>
-      </div>          
-      
-    </div>       
-    <div class="card-footer bg-transparent border-0 "><button class="btn btn-primary border-0rounded">Choose Plan</button></div>
-  </div></div>
-            <div class="col-md-3"> <div class="card shadow-lg  mb-3 mt-5 border-0" style="max-width: 18rem;">
-    <div class="card-header bg-transparent border-0 price">$300</div>
-    <div class="card-body text-success">
-      <h5 class="card-title Business text-center text-dark">Business Fair</h5>
-      <p class="card-text  text-start fair">For most businesses event 
-        like book fair, craft fair.</p>
-    </div>    
-    <div class="card-body text-success">    
-      <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-md-2 svg text-center d-flex justify-content-center align-items-center "><svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-        </svg></div>
-        <div class="col-md-10"><p class="card-text  text-start fair">Limited Space Access</p></div>
-      </div>          
-      
-    </div>        
-    <div class="card-body text-success">    
-      <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-md-2 svg text-center d-flex justify-content-center align-items-center "><svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-        </svg></div>
-        <div class="col-md-10"><p class="card-text  text-start fair">Secuirty facility</p></div>
-      </div>          
-      
-    </div>   
-    <div class="card-body text-success">    
-      <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-md-2 svg text-center d-flex justify-content-center align-items-center "><svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-        </svg></div>
-        <div class="col-md-10"><p class="card-text  text-start fair">event support</p></div>
-      </div>          
-      
-    </div>   
-    <div class="card-body text-success">    
-      <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-md-2 svg text-center d-flex justify-content-center align-items-center "><svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-        </svg></div>
-        <div class="col-md-10"><p class="card-text  text-start fair">Decoration design</p></div>
-      </div>          
-      
-    </div>   
-    <div class="card-body text-success">    
-      <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-md-2 svg text-center d-flex justify-content-center align-items-center "><svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-        </svg></div>
-        <div class="col-md-10"><p class="card-text  text-start fair">Per day bill</p></div>
-      </div>          
-      
-    </div>       
-    <div class="card-footer bg-transparent border-0 "><button class="btn btn-primary border-0rounded">Choose Plan</button></div>
-  </div></div>
-            <div class="col-md-3"> <div class="card shadow-lg  mb-3 mt-5 border-0" style="max-width: 18rem;">
-    <div class="card-header bg-transparent border-0 price">$300</div>
-    <div class="card-body text-success">
-      <h5 class="card-title Business text-center text-dark">Business Fair</h5>
-      <p class="card-text  text-start fair">For most businesses event 
-        like book fair, craft fair.</p>
-    </div>    
-    <div class="card-body text-success">    
-      <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-md-2 svg text-center d-flex justify-content-center align-items-center "><svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-        </svg></div>
-        <div class="col-md-10"><p class="card-text  text-start fair">Limited Space Access</p></div>
-      </div>          
-      
-    </div>        
-    <div class="card-body text-success">    
-      <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-md-2 svg text-center d-flex justify-content-center align-items-center "><svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-        </svg></div>
-        <div class="col-md-10"><p class="card-text  text-start fair">Secuirty facility</p></div>
-      </div>          
-      
-    </div>   
-    <div class="card-body text-success">    
-      <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-md-2 svg text-center d-flex justify-content-center align-items-center "><svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-        </svg></div>
-        <div class="col-md-10"><p class="card-text  text-start fair">event support</p></div>
-      </div>          
-      
-    </div>   
-    <div class="card-body text-success">    
-      <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-md-2 svg text-center d-flex justify-content-center align-items-center "><svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-        </svg></div>
-        <div class="col-md-10"><p class="card-text  text-start fair">Decoration design</p></div>
-      </div>          
-      
-    </div>   
-    <div class="card-body text-success">    
-      <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-md-2 svg text-center d-flex justify-content-center align-items-center "><svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-        </svg></div>
-        <div class="col-md-10"><p class="card-text  text-start fair">Per day bill</p></div>
-      </div>          
-      
-    </div>       
-    <div class="card-footer bg-transparent border-0 "><button class="btn btn-primary border-0rounded">Choose Plan</button></div>
-  </div></div>
-
-          </div>
-        </div>
-      </section>
-      
-
-    </main>
+  </main>
 
 
 
 
-    <!-- bootstrap js file -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <!-- bootstrp js file -->
-    
+  <!-- bootstrap js file -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+  <!-- bootstrp js file -->
+
 </body>
+
 </html>
 
 
 
 <div class="container">
-  
- 
+
+
 </div>

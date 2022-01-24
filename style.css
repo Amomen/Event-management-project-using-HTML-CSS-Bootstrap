@@ -4,37 +4,47 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif; */
 
 /* Header section  start*/
-.event{
+.event {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 26px;
 }
-.my-nav{
+
+.my-nav {
     font-family: 'Poppins', sans-serif;
     font-weight: medium;
     font-size: 16px;
 }
-.sec1 img{
+
+.sec1 img {
     max-width: 1440px;
     max-height: 540px;
 }
-.venue{
+
+.venue {
     font-family: 'Poppins', sans-serif;
     font-weight: SemiBold;
     font-size: 48px;
 }
+
 /* Header Section End */
 
 /* ----------------------------section 2 starting---------------------------- */
 
-.sec2{
+.sec2 {
     font-family: 'Poppins', sans-serif;
     min-height: 450px;
 }
-.moment{
+
+.moment {
     font-size: 38px;
     font-weight: bold;
 
+}
+
+.explore-svg {
+    height: 16px;
+    width: 16px;
 }
 
 
@@ -43,37 +53,61 @@ font-family: 'Roboto', sans-serif; */
 
 /* -------------------------section 3 start------------------------- */
 
-.package{
+.package {
     font-family: 'Poppins', sans-serif;
 }
-.price{
+
+.price {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 36px;
 }
-.price{
+
+.price {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 28px;
 }
-.fair{
+
+.fair {
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
-    font-size:15px;
+    font-size: 15px;
     color: #848199;
 }
+
+.s-fair {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    color: white;
+}
+
 /* .icon{
     height: 20px;
     width: 20px;
     
 } */
-.svg
-{
-    width: 40px;
-    height: 40px;
+.svg {
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    margin: 0;
     color: #5243C2;
     background-color: #EDECF9;
     border-radius: 50%;
 }
 
+.plan-btn {
+    background-color: #EDECF9;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
 /* -------------------------section 3 ending------------------------- */
+.a-btn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: medium;
+    font-size: 20px;
+}
